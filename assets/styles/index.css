@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.header {
+    position: absolute;
+    width: calc(100% - 100px);
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-link {
+    margin-left: 40px;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none
+}
+
+.nav-link:hover {
+    text-decoration: underline
+}
+
+.section {
+    padding: 40px 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    text-align: center;
+
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+}
+
+.section:nth-child(1) {
+    background-image: url(../images/bg1.png);
+}
+.section:nth-child(2) {
+    background-image: url(../images/bg2.png);
+}
+.section:nth-child(3) {
+    background-image: url(../images/bg3.png);
+}
+.section:nth-child(4) {
+    background-image: url(../images/bg4.png);
+}
+.section:nth-child(4) {
+    background-image: url(../images/bg4.png);
+}
+.section:nth-child(5) {
+    background-image: url(../images/bg5.png);
+}
+
+.title {
+    margin: 0;
+    font-size: 140px;
+    font-weight: 300;
+    line-height: 154px;
+    color: #fff
+}
+
+.desc {
+    margin-top: 50px;
+    margin-bottom: 165px;
+    color: #fff;
+    font-size: 24px
+}
+
+.button {
+    padding: 10px 35px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .9);
+}
+.footer {
+    background-color: #000;
+    font-size: 20px;
+    color: #666;
+}
+.footer .section {
+    background-image: none;
+    background-color: transparent;
+    height: 60vh;
+}
+.footer .title {
+    font-size: 50px;
+}
+.footer .desc {
+    margin: 0 0 60px;
+}
+.address {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    font-style:normal;
+}
+.info {
+    display: flex;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.contactsElement {
+    margin-left: 30px;
+}
+.developer {
+    margin-left: 30px;
+}
+.address a {
+    color: inherit;
+    text-decoration: none;
+}
+.address a:hover {
+    text-decoration: underline;
+}
